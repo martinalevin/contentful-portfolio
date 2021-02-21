@@ -40,8 +40,8 @@ const Article = () => {
   const { title, body } = article;
   return (
       <div className="container">
-        <h2>{title}</h2>
-        <div class='content'>{documentToReactComponents(body)}</div>
+        <h2 className='title'>{title}</h2>
+        <div className='content'>{documentToReactComponents(body)}</div>
       </div>
   );
 };

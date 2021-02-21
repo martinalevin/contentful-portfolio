@@ -1,15 +1,8 @@
 import React from 'react';
-
-const Header = (props) => {
-    <section className= {`hero ${props.color}`}>
-        <div className='hero-body'>
-            <div className='container'>
+const Header = () => {
                 <h1 className='title'>
-                    {props.title}
+                    Epicenter
                 </h1>
-            </div>
-        </div>
-    </section>
 }
 
 export default Header;

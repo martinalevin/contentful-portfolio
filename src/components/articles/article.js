@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
-import { Client } from '../contentful/client';
+import { Client } from '../../contentful/client';
 import { Redirect, useParams } from 'react-router-dom';
 import "./article.css"
 

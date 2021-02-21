@@ -1,4 +1,3 @@
-
 .container {
     display: flex;
     flex-direction: column;
@@ -29,12 +28,12 @@ body {
 }
 
 .hero-image {
-    background-image: url("DSC07031.jpg"); /* The image used */
-    background-color: #cccccc; /* Used if the image is unavailable */
-    height: 500px; /* You must set a specified height */
-    background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: cover; /* Resize the background image to cover the entire container */
+    background-image: url("DSC07031.jpg");
+    background-color: #d682d4;
+    height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .header {

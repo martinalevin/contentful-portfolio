@@ -14,7 +14,6 @@ const Home = () => {
       <div className='container'>
       <Article />
       </div>
-    <footer>Footer Placeholder</footer>
     </div>
   );
 };

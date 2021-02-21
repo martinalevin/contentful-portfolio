@@ -33,10 +33,6 @@ const Article = () => {
     return <Redirect to="/404" />;
   }
 
-  if (!article) {
-    return <p>loading..</p>;
-  }
-
   const { title, body } = article;
   return (
       <div className="container">

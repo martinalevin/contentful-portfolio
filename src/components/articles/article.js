@@ -11,7 +11,6 @@ const Article = () => {
   const { slug } = useParams();
 
   useEffect(() => {
-    // Get data from CMS
     Client
       .getEntries({
         content_type: 'article',

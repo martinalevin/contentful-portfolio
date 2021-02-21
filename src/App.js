@@ -1,15 +1,26 @@
-import './App.css';
+import React, { useEffect, useState } from "react";
+import getArticles from "./contentful/fetchArticles";
 
-function App() {
+const Articles = () => {
+  const [data, setData] = useState();
+
+useEffect(() => {
+  async function fetchData() {
+    const article = await getArticles();
+    setData(article);
+    console.log(article);
+  }
+  fetchData();
+}, []);
+if (!data) {
+  return <div>No data found!</div>
+} else {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Epicenter
-        </p>
-      </header>
+    <div>
+      <p>{data.fields}</p>
     </div>
-  );
+  )
+}
 }
 
-export default App;
+export default Articles;

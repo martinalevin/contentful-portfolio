@@ -1,14 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import getArticles from './contentful/fetchArticles'
+import { BrowserRouter as Router, Route } from 'react-router-dom';
 
-console.log(getArticles);
+import './index.css';
+
+import Home from './pages/home';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+  <Router>
+    <div>
+      <Route exact path="/" component={Home} />
+    </div>
+  </Router>,
+  document.getElementById('root'),
 );

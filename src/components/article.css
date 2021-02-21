@@ -1,0 +1,17 @@
+h2 {
+    color:black;
+}
+
+.container {
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    color:black;
+}
+
+.content {
+    color: black;
+    text-align: left;
+    background-color: aquamarine;
+    padding: 2rem;
+}

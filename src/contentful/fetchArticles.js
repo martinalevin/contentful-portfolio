@@ -15,5 +15,6 @@ export default (async function getArticles () {
 
     const articles = _.map(entries.items, item => item.fields);
     console.log(articles);
-    return articles
+    return (
+        <div>articles.item.fields.title</div>);
 })

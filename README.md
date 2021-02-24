@@ -1,18 +1,14 @@
-### Lightweight blog with Contentful & React
+## Lightweight blog with Contentful & React
 
-## Overview
+### Overview
 TODO - add link to presentation
 
-## Goal
+### Goal
 TODO
-## Technologies & Tools
+### Technologies & Tools
 - React
 - Contentful
 - Postman
 - Github
 - GCP
 - VS Code + extensions
-
-
-
-##TODO: Edit readme + add link to presentation

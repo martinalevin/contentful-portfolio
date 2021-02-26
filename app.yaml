@@ -1,6 +1,8 @@
 env: standard
 runtime: nodejs10
 service: contentful-portfolio
+includes:
+  - env.yaml
 handlers:
   - url: /static
     static_dir: build/static

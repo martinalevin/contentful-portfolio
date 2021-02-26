@@ -1,7 +1,6 @@
-import * as Config from './config';
 const Contentful = require('contentful');
 
 export const Client = Contentful.createClient({
-    space: Config.SPACE_ID,
-    accessToken: Config.CDAPI_ACCESS_TOKEN,
+    space: process.env.SPACE_ID,
+    accessToken: process.env.CDAPI_ACCESS_TOKEN,
 });

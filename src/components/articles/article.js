@@ -27,7 +27,7 @@ const Article = () => {
       .catch(() => {
         setError(true);
       });
-  }, []);
+  });
 
   if (error) {
     return <Redirect to="/404" />;

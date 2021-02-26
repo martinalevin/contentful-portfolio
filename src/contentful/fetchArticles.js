@@ -1,5 +1,4 @@
 import _ from 'lodash'
-import * as Config from './config';
 
 const Contentful = require('contentful');
 const Client = Contentful.createClient({

@@ -4,12 +4,13 @@
     text-align: center;
     min-height: 100vh;
     border-collapse: collapse;
+    background-color: white;
+    margin-top: 20px;
     }
 
     .container-body {
         display: flex;
         flex: 1;
-
     }
 
 footer {

@@ -1,4 +1,4 @@
-## Lightweight blog with Contentful & React
+## :cherries: Blog w. Contentful & React
 
 ### Overview
 TODO - add link to presentation

@@ -4,13 +4,15 @@ import { createBrowserHistory } from 'history'
 
 import Articles from './articles';
 import Article from './article';
+import Hero from '../pages/hero';
 
 export default function App() {
     return(
         <Router history={createBrowserHistory()}>
+            <Hero/>
             <Switch>
                 <Route path="/" exact component={Articles} />
-                <Route path="/:id" component={Article} />
+                <Route path="/:slug" component={Article} />
             </Switch>
         </Router>
     )

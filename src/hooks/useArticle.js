@@ -1,18 +1,16 @@
 import { useEffect, useState } from 'react'
 import { getArticle } from '../contentful/client'
 
-const promise = getArticle();
-
-export default function useArticle() {
-    const [article, setArticle] = useState()
+export default function useArticle(slug) {
+    const [article, setArticle] = useState(null)
     const [isLoading, setLoading] = useState(true);
 
     useEffect(() => {
-        promise.then(article => {
-            setArticle(article)
+        getArticle(slug).then(article => {
+            setArticle(article[0].fields)
             setLoading(false)
         })
-    }, [])
+    }, [slug])
     return [article, isLoading];
 }
 

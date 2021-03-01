@@ -5,6 +5,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   /*height: 20rem;*/
+  margin: 0px;
 }
 
 code {
@@ -15,3 +16,4 @@ code {
 p {
   font-family:Arial, Helvetica, sans-serifß;
 }
+

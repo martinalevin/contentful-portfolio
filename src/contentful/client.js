@@ -6,7 +6,7 @@ export const Client = Contentful.createClient({
     accessToken: Config.CDAPI_ACCESS_TOKEN,
 });
 
-const getArticles = () => Client.getEntries().then(response => response.items)
+const getArticles = () => Client.getEntries({content_type: 'article'}).then(response => response.items)
 
 const getArticle = slug => 
     Client.getEntries({

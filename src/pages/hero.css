@@ -1,0 +1,17 @@
+.hero {
+    background-image: url("DSC07031.jpg");
+    background-color: #d682d4;
+    height: 600px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-text {
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 5rem;
+}

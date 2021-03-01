@@ -1,14 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
 import './index.css';
-import Home from './pages/home';
+import App from './components/app'
 
-ReactDOM.render(
-  <Router>
-    <div>
-      <Route exact path="/" component={Home} />
-    </div>
-  </Router>,
-  document.getElementById('root'),
-);
+ReactDOM.render(<App/>, document.getElementById('root'));

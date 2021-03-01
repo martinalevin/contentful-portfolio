@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 import { Client } from '../../contentful/client';
 import { Redirect, useParams } from 'react-router-dom';
@@ -37,7 +36,7 @@ const Article = () => {
   return (
       <div className="container">
         <h2 className='title'>{title}</h2>
-        <div className='content'>{documentToReactComponents(body)}</div>
+        <div className='content'>{body}</div>
       </div>
   );
 };

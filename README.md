@@ -3,6 +3,7 @@
 ### How to build
 - Clone the repo: ```git clone https://github.com/martinalevin/contentful-portfolio```
 - Install Node and npm
+- Add environment variables
 - Run ```npm start```
 ### :candy: Technologies & Tools
 - React

@@ -1,5 +1,6 @@
-.wrapper {
-    background-color: #FFDF76;
+$fontColor: #444444;
+
+.container {
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -9,14 +10,23 @@
 }
 
 .article {
-    max-width: 30%;
+    max-width: 50%;
 }
 
-h1 {
-    font-size: xx-large;
-    color: black;
+.header {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: $fontColor;
 }
 
-p {
+.content {
+    font-family: 'Chivo', sans-serif;
+    font-weight: 500;
     font-size: large;
+    color: $fontColor;
+    margin-bottom: 10rem;
 }

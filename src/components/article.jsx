@@ -3,6 +3,7 @@ import React from 'react'
 import { useParams } from 'react-router-dom'
 import './article.scss';
 import { useArticle } from '../hooks/index'
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
 
 export default function Article() {
     const { slug } = useParams();
@@ -13,8 +14,8 @@ export default function Article() {
         return(
             <div className="container">
                 <div className='article'>
-                    <h1>{article.title}</h1>
-                    <p>{article.body}</p>
+                    <div className='header'>{article.title}</div>
+                    <div className='content'>{documentToReactComponents(article.body)}</div>	
                 </div>
             </div>
         )

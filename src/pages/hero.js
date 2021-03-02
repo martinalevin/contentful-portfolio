@@ -6,9 +6,9 @@ import "./hero.scss"
 
 const Hero = () => {
   return (
-    <div className='hero'>
+      <div className='hero'>
         <p className='hero-text'>Tiny Darkness</p>
-    </div>
+      </div>
   );
 };
 

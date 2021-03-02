@@ -1,5 +1,5 @@
 .articles-wrapper {
-    background-color: pink;
+    background-color: #FFDF76;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -10,9 +10,10 @@
 
 .link {
     text-decoration: none;
-    text-decoration-color: black;
+    text-decoration-color: white;
 }
 
 a:link {
     text-decoration: none;
 }
+

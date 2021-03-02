@@ -10,10 +10,9 @@ export default function Article() {
 
     const renderArticle = () => {
         if(isLoading) return <p>Not ready just yet!</p>
-
         return(
-            <div class='wrapper'>
-                <div class='article'>
+            <div className="container">
+                <div className='article'>
                     <h1>{article.title}</h1>
                     <p>{article.body}</p>
                 </div>

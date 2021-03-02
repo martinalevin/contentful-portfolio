@@ -7,7 +7,7 @@ import "./hero.css"
 const Hero = () => {
   return (
     <div className='hero'>
-        <p className='hero-text'>Epicenter</p>
+        <p className='hero-text'>Tiny Darkness</p>
     </div>
   );
 };

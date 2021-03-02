@@ -1,6 +1,5 @@
 .hero {
-    background-image: url("DSC07031.jpg");
-    background-color: #d682d4;
+    background-color: #FFDF76;
     height: 600px;
     background-position: center;
     background-repeat: no-repeat;
@@ -12,6 +11,8 @@
 
 .hero-text {
     color: white;
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Chivo', sans-serif;
+    font-weight: 700;
+    font-style: italic;
     font-size: 5rem;
 }

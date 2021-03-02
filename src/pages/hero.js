@@ -1,5 +1,5 @@
 import React from 'react';
-import "./hero.css"
+import "./hero.scss"
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@500&display=swap');
 </style>

@@ -1,7 +1,7 @@
 
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import './article.css'
+import './article.scss';
 import { useArticle } from '../hooks/index'
 
 export default function Article() {

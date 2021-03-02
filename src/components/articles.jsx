@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { useArticles } from '../hooks';
-import './articles.css'
+import './articles.scss'
 
 export default function Articles() {
     const [ articles ] = useArticles();

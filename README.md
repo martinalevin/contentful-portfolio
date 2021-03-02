@@ -1,7 +1,7 @@
 ## Blog w. Contentful & React
 
 ### How to build
-- Clone the repo: 
+- Clone the repo: ```git clone https://github.com/martinalevin/contentful-portfolio```
 - Install Node and npm
 - Run ```npm start```
 ### :candy: Technologies & Tools

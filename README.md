@@ -6,7 +6,7 @@
 - Run ```npm start```
 ### :candy: Technologies & Tools
 - React
-- [Contentful Content Delivery API] (https://www.contentful.com/developers/docs/references/content-delivery-api/)
+- Contentful Content Delivery API
 - Postman
 - Github
 - GCP
